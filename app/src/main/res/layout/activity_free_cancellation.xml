@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".presentation.FreeCancellationActivity"
+    android:orientation="vertical"
+    android:layout_margin="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp">
+
+    <ImageView
+        android:id="@+id/imgFreeCancelBackArrow"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:padding="2dp"
+        app:srcCompat="@drawable/ic_back_white"
+        android:layout_gravity="center_vertical|center"
+        app:tint="@color/black" />
+
+
+    <TextView
+        android:id="@+id/tvFreeCancellationTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Free Cancellation Policy"
+        android:textSize="24sp"
+        android:fontFamily="@font/futuramediumbt"
+        android:textAlignment="center"
+        android:textColor="@color/purple_500"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvFreeCancellationDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:padding="5dp"
+        android:layout_margin="20dp"
+        android:textSize="20sp"
+        android:fontFamily="@font/futuralightbt"
+        android:textAlignment="textStart"
+        android:textColor="@color/purple_500"/>
+
+</LinearLayout>

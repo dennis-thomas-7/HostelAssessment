@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Hostelworld</string>
+    <string name="euro"><u>€</u></string>
+    <string name="dollar"><u>$</u></string>
+    <string name="pound"><u>£</u></string>
+    <string name="info">Tap on the symbol to change currency</string>
+    <string name="abouttitle">About</string>
+    <string name="facilitiestitle">Facilities</string>
+    <string name="hotels">Hotels</string>
+    <string name="rooms">Rooms</string>
+    <string name="Homes">Homes</string>
+</resources>

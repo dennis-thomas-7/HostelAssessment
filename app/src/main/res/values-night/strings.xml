@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hostelworld</string>
+    <string name="euro"><u>€</u></string>
+    <string name="dollar"><u>$</u></string>
+    <string name="pound"><u>£</u></string>
+    <string name="info">Tap on the symbol to change currency</string>
+    <string name="abouttitle">About</string>
+    <string name="facilitiestitle">Facilities</string>
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp">
+
+        <ImageView
+            android:id="@+id/imgFeature"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            app:srcCompat="@drawable/ios_style_checkbox_svgrepo_com"
+            android:paddingLeft="5dp"
+            android:paddingTop="3dp"
+            app:tint="@color/black"
+            android:layout_weight="0.9"/>
+
+
+        <TextView
+            android:id="@+id/tvFeatureName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:paddingLeft="12dp"
+            android:textSize="18sp"
+            android:fontFamily="@font/futuramediumbt"
+            android:textColor="@color/purple_500"
+            android:layout_weight="0.2"/>
+
+    </LinearLayout>
+
+</LinearLayout>
